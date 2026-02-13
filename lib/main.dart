@@ -32,6 +32,12 @@ class MainApp extends StatelessWidget {
             foregroundColor: AppColors.background,
           ),
         ),
+        textButtonTheme: TextButtonThemeData(
+          style: TextButton.styleFrom(
+            padding: EdgeInsets.zero,
+            minimumSize: Size.zero,
+          ),
+        ),
       ),
       builder: (context, child) {
         return SafeArea(
