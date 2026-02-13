@@ -15,11 +15,11 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
-    //delay of 3 seconds before navigating to the next screen
+    super.initState();
+    // delay of 3 seconds before navigating to the next screen
     Future.delayed(const Duration(seconds: 3), () {
       pushReplacement(context, const WelcomeScreen());
     });
-    super.initState();
   }
 
   @override

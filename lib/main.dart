@@ -1,52 +1,6 @@
-import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:greenmark/core/constants/app_fonts.dart';
-import 'package:greenmark/core/styles/colors.dart';
-import 'package:greenmark/intro/splash_screen.dart';
+import 'package:greenmark/core/styles/main_app.dart';
 
 void main() {
   runApp(const MainApp());
-}
-
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        fontFamily: AppFonts.poppins,
-        scaffoldBackgroundColor: AppColors.background,
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: AppColors.primary,
-          onSurface: AppColors.blackcolor,
-        ),
-        elevatedButtonTheme: ElevatedButtonThemeData(
-          style: ElevatedButton.styleFrom(
-            backgroundColor: AppColors.primary,
-            minimumSize: Size(double.infinity, 55),
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(20),
-            ),
-            foregroundColor: AppColors.background,
-          ),
-        ),
-        textButtonTheme: TextButtonThemeData(
-          style: TextButton.styleFrom(
-            padding: EdgeInsets.zero,
-            minimumSize: Size.zero,
-          ),
-        ),
-      ),
-      builder: (context, child) {
-        return SafeArea(
-          top: false,
-          bottom: Platform.isAndroid,
-          child: child ?? Container(),
-        );
-      },
-      home: SplashScreen(),
-    );
-  }
 }
