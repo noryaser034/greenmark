@@ -23,4 +23,4 @@
 ### Main App Screens
 | Home Screen | Explor Screen | Cart Screen | Favourite Screen | Account Screen |
 |-------------|---------------|-------------|------------------|----------------|
-| ![Home](screenshots/shop.png) | ![Explor](screenshots/Explor.png) | ![Cart](screenshots/cart.png) | ![Favourite](screenshots/favorites.png) | ![Account](screenshots/account.png) |
+| ![Home](screenshots/shop.png) | ![Explor](screenshots/explor.png) | ![Cart](screenshots/cart.png) | ![Favourite](screenshots/favorites.png) | ![Account](screenshots/account.png) |
