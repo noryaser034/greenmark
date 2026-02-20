@@ -24,3 +24,13 @@
 | Home Screen | Explor Screen | Cart Screen | Favourite Screen | Account Screen |
 |-------------|---------------|-------------|------------------|----------------|
 | ![Home](screenshots/shop.png) | ![Explor](screenshots/explor.png) | ![Cart](screenshots/cart.png) | ![Favourite](screenshots/favorites.png) | ![Account](screenshots/account.png) |
+
+---
+| ChekOut Screen | Configratoin Screen |
+|--------------|--------------------|
+| ![ChekOut](screenshots/checkout.png) | ![Configratoin](screenshots/done.png) |
+
+---
+| Icon_App  | 
+|--------------|
+| ![Icon_App](screenshots/icon_app.png) | 
