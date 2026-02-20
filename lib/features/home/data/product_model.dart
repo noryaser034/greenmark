@@ -15,13 +15,16 @@ class ProductModel {
     required this.weight,
     required this.image,
   });
+
+  String get description =>
+      "$name is nutritious. $name may be good for weight loss. $name may be good for your heart. As part of a healthy and varied diet.";
 }
 
 List<ProductModel> offers = [
   ProductModel(
     id: 1,
     name: "Banana",
-    price: "50",
+    price: "\$50",
     weight: "1kg",
     image: "assets/images/banana.png",
   ),
@@ -156,7 +159,7 @@ List<ProductModel> allproduct = [
     image: "assets/images/orange.png",
   ),
   ProductModel(
-    id:10 ,
+    id: 10,
     name: "strawberry",
     price: "90",
     weight: "1kg",
