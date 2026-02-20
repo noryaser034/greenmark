@@ -1,7 +1,11 @@
 # greenmart
 
 ## 📸 Screenshots
+| Icon_App  | 
+|--------------|
+| ![Icon_App](screenshots/icon_app.png) | 
 
+---
 ### Welcome & Splash
 | Welcome Screen | Splash Screen |
 |----------------|---------------|
@@ -31,6 +35,4 @@
 | ![ChekOut](screenshots/checkout.png) | ![Configratoin](screenshots/done.png) |
 
 ---
-| Icon_App  | 
-|--------------|
-| ![Icon_App](screenshots/icon_app.png) | 
+
